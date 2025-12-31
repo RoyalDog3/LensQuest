@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sign_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/mint_soft">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/signTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to LensQuest"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/slate_dark"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/signSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in to explore photo spots"
+        android:textSize="14sp"
+        android:textColor="@color/slate_mid"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Log In Button (Primary) -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Log In"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:backgroundTint="@color/slate_dark"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Sign Up Button (Secondary) -->
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Sign Up"
+        android:textColor="@color/slate_dark"
+        android:backgroundTint="@color/mint_accent"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Guest Button (Low emphasis) -->
+    <Button
+        android:id="@+id/guestButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Continue as Guest"
+        android:textColor="@color/slate_mid"
+        android:backgroundTint="@color/mint_light" />
+
+</LinearLayout>
