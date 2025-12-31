@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the layout file for the welcome screen. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcomeRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mint_light"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/lensquestlogo"
+            android:contentDescription="LensQuest Logo" />
+
+        <!-- App Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LensQuest"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="@color/slate_dark"
+            android:layout_marginTop="16dp" />
+
+        <!-- Slogan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find the perfect shot"
+            android:textSize="14sp"
+            android:textColor="@color/slate_mid"
+            android:letterSpacing="0.12"
+            android:layout_marginTop="4dp" />
+
+        <!-- Tap Hint -->
+        <TextView
+            android:id="@+id/tapHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap anywhere to continue"
+            android:textSize="12sp"
+            android:textColor="@color/slate_blue"
+            android:layout_marginTop="48dp" />
+    </LinearLayout>
+
+</FrameLayout>

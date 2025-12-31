@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Primary background (70%) -->
+    <color name="mint_light">#c4edde</color>
+    <color name="mint_soft">#ebf9f4</color>
+
+    <!-- Text / Structure (20%) -->
+    <color name="slate_dark">#242b3a</color>
+    <color name="slate_blue">#384259</color>
+    <color name="slate_mid">#4c5978</color>
+
+    <!-- Accent (10%) -->
+    <color name="mint_accent">#9de1c8</color>
 </resources>
